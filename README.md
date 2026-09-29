@@ -18,7 +18,7 @@ My original note when I created this repository:
 
 Each day's folder will contain the work and a README explaining what I made, how AI helped, what I checked, and what I learned. The [project index](challenge.json) connects those entries to the website, including live projects, artwork, downloads, or write-ups when available.
 
-**[Day 1: Virtual iPhone Studio](days/day-001)** is published: an interactive 3D phone concept with a working screen. The source and first milestone are available; a hosted playable demo is pending Vercel authentication. Setting up the challenge is not counted as a completed daily project. Day 1 is September 28, 2026, even if its conversation continues after that date.
+**[Play Day 1: Virtual iPhone Studio](https://rawmware.com/365-days/projects/day-001)** — an interactive 3D phone concept with a working screen. [Source and notes](days/day-001) are available separately. Clicking a published day in the archive opens its project directly. Setting up the challenge is not counted as a completed daily project. Day 1 is September 28, 2026, even if its conversation continues after that date.
 
 ## For the next AI conversation
 

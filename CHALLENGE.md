@@ -8,7 +8,7 @@ RawmWare.com is the front door. Its existing desktop, experiments, clock, and ot
 
 ## Current handoff
 
-**Day 1's first project milestone is published: [Virtual iPhone Studio](days/day-001).** It includes the interactive 3D hardware and usable simulated screen. The production build and desktop/mobile browser checks passed, and the archive and Day 1 page were verified to show the published entry. A playable Vercel deployment and its `demoUrl` are still pending Vercel authentication. Live AI integration is intentionally deferred. Do not count the earlier archive launch work as a separate completed day.
+**Day 1's first project milestone is published: [Virtual iPhone Studio](https://rawmware.com/365-days/projects/day-001).** It includes the interactive 3D hardware and usable simulated screen. The production build and desktop/mobile browser checks passed. The playable build is now hosted on RawmWare through its existing GitHub-to-Vercel deployment, and Day 1 has a `demoUrl`. Roman clarified that every day should open the actual project immediately; notes and source are secondary. Live AI integration is intentionally deferred. Do not count the earlier archive launch work as a separate completed day.
 
 - Day 1: September 28, 2026.
 - Day 365: September 27, 2027.
@@ -24,7 +24,7 @@ The archive fetches `challenge.json` from this repository's `main` branch when l
 
 The website keeps a saved manifest snapshot for times when GitHub cannot be reached, and labels it as a saved snapshot if refresh fails. Changes can take a few minutes to appear because of upstream caching. Refresh and verify both the archive and that day's page after publishing.
 
-The site does not execute repository code or automatically deploy projects. Choose suitable hosting for an actual demo and add its verified HTTPS URL. Non-web projects can link to a public artifact or write-up. Do not put runnable daily code into the private website merely to make an entry appear.
+The archive is project-first: clicking a published day opens its `demoUrl` directly, or `artifactUrl` for a non-web result. Notes and source are available through a separate secondary link. The site does not automatically deploy repository code. Host and verify each result before adding its HTTPS URL. Reviewed static builds may be hosted on RawmWare; keep their editable public source here and keep private website source separate. Do not publish a placeholder URL or direct visitors to GitHub as a substitute for a working project.
 
 ## Daily workflow
 
@@ -32,7 +32,7 @@ The site does not execute repository code or automatically deploy projects. Choo
 2. Create `days/day-001/` (or the matching zero-padded day) and build the project there. Improvements to another project should include public-safe changes, a link to the relevant public commit, and an explanation of the work.
 3. Write its `README.md` using `templates/DAY.md`: describe the idea, work, AI involvement, how to run or view it, checks, and limitations.
 4. Add or update one entry in `challenge.json`. Do not remove previous entries. Keep entries ordered by day.
-5. Run the validator and the project's relevant checks. Verify demo/artifact links if supplied.
+5. Run the validator and the project's relevant checks. Verify the public demo/artifact link, then confirm clicking the day in the archive opens the actual result on desktop and mobile. Synopsis pages are secondary (`view=notes`), not the default project destination.
 6. When authorized, commit and push the public files to `main`, then verify the GitHub entry and RawmWare page. Report actual results and hand off remaining work.
 
 ## Manifest contract (version 1)
@@ -60,4 +60,4 @@ Suggested kinds include Website, Program, Improvement, Art, and Machine learning
 
 ## Continuing Day 1
 
-After Vercel authentication, deploy `days/day-001` as a Vite project, verify the public demo, and add its HTTPS URL as Day 1's `demoUrl` in `challenge.json`. Re-run the validator, publish the manifest update, and verify the new demo link on RawmWare. Do not claim the playable demo is hosted until this is verified. The existing RawmWare website source stays separate.
+Editable source is in `days/day-001`. `npm run build:rawmware` builds with the asset base `/365-days/projects/day-001/`. The website deployment serves the generated index at `/365-days/projects/day-001` and its assets beneath that path. Publish future reviewed builds through the existing website deployment, verify the public URL, and keep the manifest current. The earlier separate CLI sign-in is not required for this GitHub deployment path. AI integration remains deferred until Roman chooses to continue it.

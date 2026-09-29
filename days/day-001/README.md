@@ -23,6 +23,10 @@ Roman supplied the project direction and specification, chose the initial intera
 
 ## Run or view it
 
+**[Open the playable project](https://rawmware.com/365-days/projects/day-001)** · [Optional daily notes page](https://rawmware.com/365-days/day?day=1&view=notes)
+
+The 365-day archive opens the project directly when Day 1 is clicked. The same project-first behavior applies to future published days with demo or artifact URLs.
+
 From this directory:
 
 ```sh
@@ -31,6 +35,8 @@ npm run dev
 ```
 
 Open http://127.0.0.1:5180. For a production bundle, run `npm run build`; deploy the `dist/` directory as a static Vite site. Three.js is bundled locally. The optional Google Fonts stylesheet falls back to system fonts.
+
+For the RawmWare deployment path, use `npm run build:rawmware`. Its generated index is hosted at `/365-days/projects/day-001` and assets under `/365-days/projects/day-001/assets/`. The public project source stays here; the website repository receives only the reviewed build for hosting.
 
 Keyboard controls: **1** front, **2** back, **L** lock/wake, **H** home, **Escape** exit screen-only view or return home. Notes and wallpaper are stored in the current browser only.
 

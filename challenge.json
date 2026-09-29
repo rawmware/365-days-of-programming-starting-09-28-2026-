@@ -12,6 +12,7 @@
       "summary": "An interactive silver iPhone concept with a rotatable 3D model and a working screen. Explore apps, calculate, save notes, change wallpapers, and switch into screen-only mode.",
       "status": "published",
       "sourcePath": "days/day-001",
+      "demoUrl": "https://rawmware.com/365-days/projects/day-001",
       "notes": [
         "Day 1 delivers the hardware and interaction milestone: orbit, zoom, front/back views, side controls, lock/unlock, and a live HTML screen on the 3D model.",
         "Calculator, local notes, wallpapers, display settings, and synthesized audio work without an API key. Weather, camera, phone, and messages are labeled simulations.",
