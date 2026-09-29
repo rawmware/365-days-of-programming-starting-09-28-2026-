@@ -8,7 +8,7 @@ RawmWare.com is the front door. Its existing desktop, experiments, clock, and ot
 
 ## Current handoff
 
-The launch task prepares the archive and documentation. **Day 1's project is still to be built in a separate conversation.** The empty `entries` array is intentional. Do not label the launch work as a completed Day 1.
+**Day 1's first project milestone is published: [Virtual iPhone Studio](days/day-001).** It includes the interactive 3D hardware and usable simulated screen. The production build and desktop/mobile browser checks passed, and the archive and Day 1 page were verified to show the published entry. A playable Vercel deployment and its `demoUrl` are still pending Vercel authentication. Live AI integration is intentionally deferred. Do not count the earlier archive launch work as a separate completed day.
 
 - Day 1: September 28, 2026.
 - Day 365: September 27, 2027.
@@ -28,7 +28,7 @@ The site does not execute repository code or automatically deploy projects. Choo
 
 ## Daily workflow
 
-1. Confirm the intended day and what Roman wants to build. The next conversation starts with Day 1.
+1. Confirm the intended day and what Roman wants to build. Continuing a project's next milestone does not automatically start a new day.
 2. Create `days/day-001/` (or the matching zero-padded day) and build the project there. Improvements to another project should include public-safe changes, a link to the relevant public commit, and an explanation of the work.
 3. Write its `README.md` using `templates/DAY.md`: describe the idea, work, AI involvement, how to run or view it, checks, and limitations.
 4. Add or update one entry in `challenge.json`. Do not remove previous entries. Keep entries ordered by day.
@@ -58,6 +58,6 @@ Example structure only — this is not a completed project and must not be copie
 
 Suggested kinds include Website, Program, Improvement, Art, and Machine learning. The validator accepts other descriptive text. Add multiple changes from the same day to that day's notes and folder; keep one manifest entry per day.
 
-## Starting prompt for Day 1
+## Continuing Day 1
 
-"Read AGENTS.md and CHALLENGE.md in the 365-days-of-programming-starting-09-28-2026- repository. We are starting Day 1, September 28, 2026. The challenge launch is already handled. Help me build today's project, document it, and update challenge.json."
+After Vercel authentication, deploy `days/day-001` as a Vite project, verify the public demo, and add its HTTPS URL as Day 1's `demoUrl` in `challenge.json`. Re-run the validator, publish the manifest update, and verify the new demo link on RawmWare. Do not claim the playable demo is hosted until this is verified. The existing RawmWare website source stays separate.

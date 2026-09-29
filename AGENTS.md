@@ -2,7 +2,7 @@
 
 Read [CHALLENGE.md](CHALLENGE.md) before working. Roman's challenge is **365 Days of Showing Up**, September 28, 2026 through September 27, 2027, inclusive. This is the public challenge repository. The existing RawmWare website source is private and stays separate.
 
-- The challenge launch is infrastructure, not Day 1's project. No daily project has been completed by the launch task. Roman will choose and build Day 1 in a separate conversation.
+- The challenge launch is infrastructure, not Day 1's project. Day 1 now contains Virtual iPhone Studio; read its README and the current handoff in CHALLENGE.md before continuing.
 - Work with Roman on the requested day. A new program, an improvement to existing software, digital art, or a machine-learning experiment can all count.
 - Use `days/day-NNN/` for a day's public source and notes. Preserve past work. Do not invent completed days, projects, results, tests, streaks, or model names.
 - Update the root `challenge.json` so RawmWare.com can display the entry. Dates are fixed calendar dates: Day 1 = 2026-09-28; Day 365 = 2027-09-27. They do not shift if a session happens later. Use `in-progress` until the work and its verification are finished; use `published` only for real, documented work.
