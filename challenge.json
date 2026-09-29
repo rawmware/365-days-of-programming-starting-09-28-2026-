@@ -3,5 +3,20 @@
   "title": "365 Days of Showing Up",
   "startDate": "2026-09-28",
   "totalDays": 365,
-  "entries": []
+  "entries": [
+    {
+      "day": 1,
+      "date": "2026-09-28",
+      "title": "Virtual iPhone Studio",
+      "kind": "Website / 3D experiment",
+      "summary": "An interactive silver iPhone concept with a rotatable 3D model and a working screen. Explore apps, calculate, save notes, change wallpapers, and switch into screen-only mode.",
+      "status": "published",
+      "sourcePath": "days/day-001",
+      "notes": [
+        "Day 1 delivers the hardware and interaction milestone: orbit, zoom, front/back views, side controls, lock/unlock, and a live HTML screen on the 3D model.",
+        "Calculator, local notes, wallpapers, display settings, and synthesized audio work without an API key. Weather, camera, phone, and messages are labeled simulations.",
+        "Production build and desktop/mobile browser checks passed. AI integration is planned for a later milestone."
+      ]
+    }
+  ]
 }
