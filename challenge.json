@@ -18,6 +18,21 @@
         "Calculator, local notes, wallpapers, display settings, and synthesized audio work without an API key. Weather, camera, phone, and messages are labeled simulations.",
         "Production build and desktop/mobile browser checks passed. AI integration is planned for a later milestone."
       ]
+    },
+    {
+      "day": 2,
+      "date": "2026-09-29",
+      "title": "ROMPOD — Rawmware Audio System",
+      "kind": "Website / Music workstation",
+      "summary": "A Winamp-inspired audio workstation with movable metallic panels, three immersive visualizers, eight skins, YouTube playlists and local audio with a real ten-band equalizer.",
+      "status": "published",
+      "sourcePath": "days/day-002",
+      "demoUrl": "https://rawmware.com/365-days/projects/day-002",
+      "notes": [
+        "Evolves the Pocket Amp beta into a full-screen Rawmware music environment. Day 2 is September 29; this milestone was published September 30, 2026.",
+        "Desktop and mobile browser checks passed on the public player, including local audio playback, seeking, source switching, analyser output, equalizer controls, skins and window interactions.",
+        "The supplied YouTube playlist returned an embedding restriction during verification. Local audio playback is verified; YouTube availability depends on each playlist and video. YouTube visuals are generative; local audio drives real analysis."
+      ]
     }
   ]
 }
