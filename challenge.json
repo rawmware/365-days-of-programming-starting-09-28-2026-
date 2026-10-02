@@ -33,6 +33,22 @@
         "Desktop and mobile browser checks passed on the public player, including local audio playback, seeking, source switching, analyser output, equalizer controls, skins and window interactions.",
         "The supplied YouTube playlist returned an embedding restriction during verification. Local audio playback is verified; YouTube availability depends on each playlist and video. YouTube visuals are generative; local audio drives real analysis."
       ]
+    },
+    {
+      "day": 3,
+      "date": "2026-09-30",
+      "title": "AIctually Help — practical AI for everyday life",
+      "kind": "Website / AI education",
+      "summary": "Ready-to-use prompts right on the page, with a bigger idea: teach people practical AI skills through nonprofits, starting with everyday needs like email.",
+      "status": "published",
+      "sourcePath": "days/day-003",
+      "demoUrl": "https://www.aictuallyhelp.com/",
+      "writeupUrl": "https://rawmware.com/ai-blog/day-3-aictually-help",
+      "notes": [
+        "The idea is to give people something they can try immediately: copy a prompt, paste it into an AI app, and use it for a real task.",
+        "Start with the basics, including setting up email and learning how to ask for help. The longer-term idea is to teach people at nonprofits how I use AI.",
+        "Day 3 is September 30, 2026. This archive entry and its blog post were added October 2, 2026. Nonprofit workshops are an idea to pursue, not a completed program."
+      ]
     }
   ]
 }
