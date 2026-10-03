@@ -64,6 +64,21 @@
         "The page includes kid-friendly and grown-up modes, an interactive castle map, individual helper demos, optional sound effects, and clear links to the original open-source projects.",
         "The reviewed static build is hosted on RawmWare so selecting Day 4 opens the application directly; project notes and source remain secondary links."
       ]
+    },
+    {
+      "day": 5,
+      "date": "2026-10-02",
+      "title": "github.fetch — Open Source, Ready to Run",
+      "kind": "Website / GitHub automation",
+      "summary": "A live discovery feed that turns fresh open-source repositories into plain-English browser launch guides, local commands, licensing context, and make-it-yours prompts.",
+      "status": "published",
+      "sourcePath": "days/day-005",
+      "demoUrl": "https://rawmware.com/365-days/projects/day-005",
+      "notes": [
+        "The application reads the public github.fetch feed and lets visitors search, filter, sort, open, fork, and copy setup guidance for newly discovered repositories.",
+        "A GitHub Actions pulse runs every 15 minutes and paces authored scout commits toward a floor of 60 per UTC day; the interface verifies today's default-branch scout commits through GitHub's public API.",
+        "The frontend is portable static HTML, CSS, and JavaScript in the github.fetch repository, so it can move from the Day 5 route to a standalone domain later."
+      ]
     }
   ]
 }
