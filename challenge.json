@@ -49,6 +49,21 @@
         "Start with the basics, including setting up email and learning how to ask for help. The longer-term idea is to teach people at nonprofits how I use AI.",
         "Day 3 is September 30, 2026. This archive entry and its blog post were added October 2, 2026. Nonprofit workshops are an idea to pursue, not a completed program."
       ]
+    },
+    {
+      "day": 4,
+      "date": "2026-10-01",
+      "title": "Cyber Castle — Security Automations",
+      "kind": "Website / Security education",
+      "summary": "Ten open-source security automations are presented as interactive browser simulations, with kid-friendly and technical explanations of what each helper does.",
+      "status": "published",
+      "sourcePath": "days/day-004",
+      "demoUrl": "https://rawmware.com/365-days/projects/day-004",
+      "notes": [
+        "Cyber Castle turns ten security projects by ChiefGyk3D into safe, in-browser simulations that visitors can explore without scanning or connecting to real systems.",
+        "The page includes kid-friendly and grown-up modes, an interactive castle map, individual helper demos, optional sound effects, and clear links to the original open-source projects.",
+        "The reviewed static build is hosted on RawmWare so selecting Day 4 opens the application directly; project notes and source remain secondary links."
+      ]
     }
   ]
 }
